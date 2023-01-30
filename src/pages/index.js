@@ -1,10 +1,14 @@
-import Navbar from "@/Components/Navbar";
-import Footer from "@/Components/Footer";
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <Head>
+        <title>Blog - Home</title>
+      </Head>
+      <div>
+        <h1>Home</h1>
+      </div>
+    </>
   );
 }
